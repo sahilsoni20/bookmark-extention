@@ -48,7 +48,7 @@
 
       return () => {
         document.removeEventListener("mousedown", handleClickOutside);
-      };  
+      };
     }, [showForm]);
 
     useEffect(() => {
@@ -124,7 +124,7 @@
             />
           </header>
           <div className="mt-6">
-            <ul className="grid gap-x-8 gap-y-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <ul className="grid gap-x-8 gap-y-8 grid-cols-4">
               {BookMarks.map((bm) => {
                 return (
                   <li
